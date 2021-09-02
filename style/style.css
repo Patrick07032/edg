@@ -70,7 +70,8 @@
                 
                 #form input[type="text"],
                 #form input[type="password"],
-                #form input[type="email"] {
+                #form input[type="email"],
+                #forgotpasswordform input[type="email"] {
                     width: 100%;
                     margin-bottom: 30px;
                     padding: 13px;
@@ -115,6 +116,18 @@
                 
                 .ops p:last-child {
                     text-align: right;
+                }
+                
+                #forgotpasswordform {
+                    display: none;
+                    color: #333;
+                    text-align: center;
+                }
+                
+                #forgotpasswordform h2 {
+                    padding: 5px;
+                    line-height: 1.5;
+                    margin-bottom: 10px;
                 }
                 
                 .footer {
