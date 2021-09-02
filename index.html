@@ -22,13 +22,18 @@
                 </div>
                 <div class="login">
                     <form action="" method="post" id="form">
-                        <input type="text" name="username" placeholder="Username" required><br>
-                        <input type="password" name="password" placeholder="Password" required><br>
+                        <input type="text" name="username" placeholder="Username"><br>
+                        <input type="password" name="password" placeholder="Password"><br>
                         <button type="submit" class="btn">Login</button>
                     </form>
+                    <form action="" id="forgotpasswordform">
+                        <h2>Type in your email inside a field provided below to get a password reset link.</h2>
+                        <input type="email" name="fp_email" placeholder="Enter Your Email For Password Reset" required>
+                        <button type="submit" class="btn" id="el_btn">Email Link</button>
+                    </form>
                     <div class="ops">
-                        <p><a href="./template/register.html">Create An Account</a></p>
-                        <p><a href="#">Forgot Password?</a></p>
+                        <p><a href="./template/register.html" id="ca_btn">Create An Account</a></p>
+                        <p><a href="#" id="fp_btn">Forgot Password?</a></p>
                     </div>
                 </div>
             </div>
