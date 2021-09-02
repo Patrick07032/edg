@@ -34,6 +34,11 @@
                     padding: 2%;
                 }
                 
+                .logo {
+                    width: 60px;
+                    height: auto;
+                }
+                
                 .body {
                     padding: 5%;
                     display: flex;
@@ -42,8 +47,14 @@
                 
                 .side_info {
                     flex: 2;
-                    padding: 2%;
+                    padding: 10% 2% 2%;
                     text-align: center;
+                    box-sizing: border-box;
+                }
+                
+                .login_img {
+                    width: 30%;
+                    height: auto;
                 }
                 
                 .login,
